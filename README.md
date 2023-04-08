@@ -8,7 +8,8 @@ multi-omics data improved the performance of our method compared to using only i
 make it possible to extend the method to analyze large multi-omics datasets, thus making it a promising tool for clustering and analyzing vast amounts of data. Through 
 detailed experimental analysis, we demonstrate the effectiveness of SCMAT.
 
-## We can run the SCMAT model with the following command:
+## We can run the SCMAT model with the following command(Example):
 ```bash
-python train.py -i ./input/(dataset).list -m SCMAT -t (dataset) -model transformer
+python train.py -i ./input/simulate3.list -m SCMAT -t simulate3 -model transformer -e 300
 ```
+Simulate3 is a simulated dataset and it has 3 cell types.
