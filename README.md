@@ -19,7 +19,7 @@ The performance analysis of the results was conducted using R language, and the 
 1. Construct cell labels, such as `Label.csv`
 2. Organize the output of the model
 3. Using `Evaluation. R` to complete performance evaluation
-4. Finally, use the `ggplot2` `Evaluation. R`package in R language to draw a umap diagram and visualize the results
+4. Finally, use the `ggplot2` package in R language to draw a umap diagram and visualize the results
 
 ## Settings
 SCMAT's model implementation is based on Pytorch. Its dependency packages are: Python (3.7.10), PyTorch (1.7.1), NumPy (1.20.3), Pandas (1.3.4), Keras (2.3.1), Scipy(1.7.1). The operating system is windows10. The GPU is NVIDIA GeForce GTX 3090.
