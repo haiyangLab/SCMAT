@@ -16,7 +16,7 @@ Simulate3 is a simulated dataset and it has 3 cell types.
 
 ## Evaluation
 The performance analysis of the results was conducted using R language, and the following are the analysis steps:
-1. Construct cell labels
+1. Construct cell labels, such as `Label.csv`
 2. Organize the output of the model
 3. Using `Evaluation. R` to complete performance evaluation
 
